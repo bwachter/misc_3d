@@ -1,0 +1,52 @@
+* TOC                                                                 :TOC_4:
+  - [[#introduction][Introduction]]
+  - [[#mounting][Mounting]]
+    - [[#mainboard-standoffs][Mainboard standoffs]]
+    - [[#raaco-drawer-shims][Raaco drawer shims]]
+    - [[#magnet-shims][Magnet shims]]
+  - [[#vacuum-adapters][Vacuum adapters]]
+    - [[#bosch-gcu-to-central-vacuum-adapter][Bosch GCU to central vacuum adapter]]
+    - [[#central-vacuum-to-boschelectroluxaeg-vacuum-shim][Central vacuum to Bosch/Electrolux/AEG/... vacuum shim]]
+
+** Introduction
+This repository contains various simple [[https://openscad.org/][OpenSCAD]] models for printing. In most cases you'll need to adjust parameters for your specific use case. For the few model where standard parameters make sense you'll find a STL on printables.
+
+** Mounting
+This section contains various simple adapters to mount random items to others.
+*** Mainboard standoffs
+[[./mounting/mainboard_standoffs.scad][mainboard_standoffs.scad]] defines a simple standoff for mounting holes the mainboard has, but the case is missing. They should friction fit into the mainboard screw holes, and optionally can be secured with a M3 screw.
+*** Raaco drawer shims
+[[./mounting/raaco_drawer_shim_top.scad][raaco_drawer_shim_top.scad]] and [[./mounting/raaco_drower_shim.scad][raaco_drawer_shim.scad]] are shims to friction fit the raaco container grids from [[https://www.printables.com/model/479356][this collection]] into a common workshop drawer. [[./mounting/raaco_drawer_shims.3mf][raaco_drawer_shims.3mf]] has a pair of each shim mirrored and rotated to be printed on a mk3/mk4 print bed.
+*** Magnet shims
+[[./mounting/magnet_shim.scad][magnet_shim.scad]] is the size of common rubberized magnets with M4 thread, and can be used to balance larger plates mounted with only few magnets.
+
+#+CAPTION: Shims next to one magnet
+[[./media/magnet_shim_a.png]]
+
+#+CAPTION: One shim and one magnet mounted on a can holder
+[[./media/magnet_shim_b.png]]
+
+** Vacuum adapters
+*** Bosch GCU to central vacuum adapter
+[[./mounting/bosch_cgu_adapter.scad][bosch_cgu_adapter.scad]] connects the Bosch GCU 18V-30 to a vacuum nozzle with 32mm diameter - like BEAM and some other central vacuums. It is best printed in flexible filament.
+
+#+CAPTION: The vacuum adapter
+[[./media/guc_adapter_a.png]]
+
+#+CAPTION: The vacuum adapter mounted on the tool
+[[./media/guc_adapter_b.png]]
+
+*** Central vacuum to Bosch/Electrolux/AEG/... vacuum shim
+[[./vacuum/vacuum_shim.scad][vacuum_shim.scad]] can be inserted into tools belonging to standard AEG/Electrolux/... vacuums with a 35mm nozzle diameter to bring them to the size of central vacuums. It is best printed in flexible filament.
+
+#+CAPTION: The shim
+[[./media/vacuum_shim_a.png]]
+
+#+CAPTION: The shim in a vacuum pipe
+[[./media/vacuum_shim_b.png]]
+
+#+CAPTION: The shim in a tool
+[[./media/vacuum_shim_c.png]]
+
+#+CAPTION: Tool with the shim mounted to a vacuum
+[[./media/vacuum_shim_d.png]]
