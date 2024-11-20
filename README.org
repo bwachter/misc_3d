@@ -1,5 +1,7 @@
 * TOC                                                                 :TOC_4:
   - [[#introduction][Introduction]]
+  - [[#fans][Fans]]
+    - [[#bgears-aerocool-b-blaster-120mm-fan-brackets][BGEARS Aerocool B Blaster 120mm fan brackets]]
   - [[#mounting][Mounting]]
     - [[#mainboard-standoffs][Mainboard standoffs]]
     - [[#raaco-drawer-shims][Raaco drawer shims]]
@@ -11,6 +13,9 @@
 ** Introduction
 This repository contains various simple [[https://openscad.org/][OpenSCAD]] models for printing. In most cases you'll need to adjust parameters for your specific use case. For the few model where standard parameters make sense you'll find a STL on printables.
 
+** Fans
+*** BGEARS Aerocool B Blaster 120mm fan brackets
+[[./fans/bgears_fan_bracket.scad][bgears_fan_bracket.scad]] allows connecting several BGEARS Aerocool B Blaster 120mm fan into one big block and/or mounting it to something. STLs are available on [[https://www.printables.com/model/225105-fan-brackets-for-bgears-aerocool-b-blaster][printables]].
 ** Mounting
 This section contains various simple adapters to mount random items to others.
 *** Mainboard standoffs
