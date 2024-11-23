@@ -9,6 +9,7 @@
   - [[#vacuum-adapters][Vacuum adapters]]
     - [[#bosch-gcu-to-central-vacuum-adapter][Bosch GCU to central vacuum adapter]]
     - [[#central-vacuum-to-boschelectroluxaeg-vacuum-shim][Central vacuum to Bosch/Electrolux/AEG/... vacuum shim]]
+    - [[#replacement-lid-for-beam-central-vacuum][Replacement lid for Beam central vacuum]]
 
 ** Introduction
 This repository contains various simple [[https://openscad.org/][OpenSCAD]] models for printing. In most cases you'll need to adjust parameters for your specific use case. For the few model where standard parameters make sense you'll find a STL on printables.
@@ -55,3 +56,8 @@ This section contains various simple adapters to mount random items to others.
 
 #+CAPTION: Tool with the shim mounted to a vacuum
 [[./media/vacuum_shim_d.png]]
+
+*** Replacement lid for Beam central vacuum
+[[./vacuum/beam_lid.scad][beam_lid.scad]] contains a replacement flap for a vacuum socket. [[./vacuum/beam_plug.scad][beam_plug.scad]] can be used to fix the rubber seal from the original one in case the original stopper got lost or fits badly.
+
+Detailed instruction is on [[https://www.printables.com/model/570356-beam-central-vacuum-replacement-cover][printables.]]

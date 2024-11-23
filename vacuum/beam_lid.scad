@@ -74,6 +74,9 @@ difference(){
 
 hollow_cylinder(d=13, h=8+outer_height, w=1);
 
+// this helps pressing the lid better into the seal
+hollow_cylinder(d=32.75, h=0.76+outer_height/2, w=3);
+
 translate([9,outer_diameter/2+5.2,5]){
   connector();
 }
